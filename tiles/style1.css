@@ -65,16 +65,16 @@ h2, h3 {
     border-radius: 5px; 
     -moz-border-radius: 5px; 
     -webkit-border-radius: 5px; 
-    border: 2px solid #F20505;
+    border: 2px solid #04946B;
     -moz-box-shadow: 10px 10px 5px #888;
     -webkit-box-shadow: 10px 10px 5px #888;
     box-shadow: 10px 10px 5px #888;
     padding: 1em;
-    background-color: #B4E0E8;
+    background-color: #fdfdfd;
 }
 
 .phone{
-    color: #F20505;
+    color: #04946B;
     font-size: 2em;
     font-weight: 700;
 }
@@ -85,7 +85,7 @@ body{
 }
 
 .callout{
-    color: #F20505;
+    color: #04946B;
     font-style: italic;
 }
 /*
@@ -93,4 +93,7 @@ body{
   grey: 858585
   light blue: C5D2DB
   dark blue: 3E6B85
+
+
+grey and pink?
 */
