@@ -54,30 +54,31 @@ h2.logo{
 h2, h3 {
     font-weight: 700;
     font-size: 2em;
-    color: #3E6B85;
+    color: #383838;
 }
 
 .testimonials li{
     border-radius: 5px; 
     -moz-border-radius: 5px; 
     -webkit-border-radius: 5px; 
-    border: 2px solid #3E6B85;
+    border: 2px solid #F20505;
     padding: 1em;
-    background-color: #C5D2DB;
+    background-color: #B4E0E8;
 }
 
 .phone{
-    color: #F4921E;
+    color: #F20505;
     font-size: 2em;
     font-weight: 700;
 }
 
 body{
     color: #222222;
+    background-color: #F2F2F2;
 }
 
 .callout{
-    color: #3E6B85;
+    color: #F20505;
     font-style: italic;
 }
 /*
