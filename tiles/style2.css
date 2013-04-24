@@ -36,7 +36,8 @@ h1, h2.logo{
 
 body{
     font-family: minion-pro-caption, verdana, serif;
-    color: #222222;
+    color: #232423;
+    background-color: #fcfcfc;
 }
 h1{
     font-size: 7em;
@@ -51,7 +52,7 @@ h1, h2.logo{
 .contact .phone{
     font-size: 3em;
     font-weight: 700;
-    color: #222222;
+    color: #EB2800;
 }
 h2, h3{
     font-size: 2em;
@@ -74,3 +75,16 @@ h2, h3{
     margin-top: 25px;
     float: left;
 }
+
+.callout{
+    color: #EB2800;
+}
+
+
+/*
+light grey: BDC4C4
+grey: 5A5F66
+dark grey: 2C2E38
+red: EB2800
+black: 232423;
+*/
