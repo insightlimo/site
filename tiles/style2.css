@@ -40,11 +40,12 @@ h1, h2.logo{
 
 body{
     font-family: minion-pro-caption, verdana, serif;
-    color: #232423;
-    background-color: #BAC9C6;
+    background-color: #232423;
+    color: #eeeeee;
 }
 h1{
     font-size: 7em;
+    color: #4591F5;
 }
 h2.logo{
     font-size: 2em;
@@ -56,11 +57,10 @@ h1, h2.logo{
 .contact .phone{
     font-size: 3em;
     font-weight: 700;
-    color: #921C1C;
+    color: #DEC83A;
 }
 h2, h3{
     font-size: 2em;
-    color: #5A8C8C;
     font-weight: 700;
 }
 
@@ -83,7 +83,7 @@ h2, h3{
 }
 
 .callout{
-    color: #921C1C;
+    color: #DEC83A;
 }
 
 
