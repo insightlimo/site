@@ -1,6 +1,10 @@
 body{
     margin: 5% 15%;
 }
+body a{
+    text-decoration: none;
+}
+
 
 div {
     margin-top: 3em;
@@ -37,7 +41,7 @@ h1, h2.logo{
 body{
     font-family: minion-pro-caption, verdana, serif;
     color: #232423;
-    background-color: #fcfcfc;
+    background-color: #BAC9C6;
 }
 h1{
     font-size: 7em;
@@ -52,10 +56,12 @@ h1, h2.logo{
 .contact .phone{
     font-size: 3em;
     font-weight: 700;
-    color: #EB2800;
+    color: #921C1C;
 }
 h2, h3{
     font-size: 2em;
+    color: #5A8C8C;
+    font-weight: 700;
 }
 
 .testimonials li{
@@ -77,7 +83,7 @@ h2, h3{
 }
 
 .callout{
-    color: #EB2800;
+    color: #921C1C;
 }
 
 
