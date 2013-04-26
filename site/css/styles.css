@@ -2,7 +2,7 @@ body{
     font-family: minion-pro-caption, verdana, serif;
     background-color: #232423;
     color: #eeeeee;
-    padding: 0 2em 2em 2em;
+    padding: 1em;
     background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, .05) 5%, transparent 5%, transparent);
     background-image: -moz-linear-gradient(to right, rgba(255, 255, 255, .05) 5%, transparent 5%, transparent);
     background-image: -o-linear-gradient(to right, rgba(255, 255, 255, .05) 5%, transparent 5%, transparent);
@@ -23,41 +23,45 @@ header, section, footer{
  *******************************/
 header{
     text-align: center;
-    margin: 0 -2em;
     padding: 1em 0;
 }
 
 h1{
     font-size: 3em;
-    letter-spacing: .1em;
+    letter-spacing: .2em;
     font-weight: 300;
-    color: #4591F5;
+/*    color: #4591F5;*/
 }
 
 header h2{
     font-size: 1.33333em;
     font-weight: 400;
-    margin-top: 1em;
+    margin-top: .25em;
 }
 
 h1, header h2{
     font-family: trajan-pro-3, verdana, serif;
 }
 
-header .phone a{
+/*******************************
+ end header styling
+*******************************/
+
+.phone a{
     font-size: 2em;
     font-weight: 700;
     color: #DEC83A;
     text-decoration: none;
 }
-
-header .phone{
-    margin-top: 1em;
+.phone{
+    text-align: center;
+    box-shadow: 0 0 .35em #DEC83A;
 }
 
-/*******************************
- end header styling
-*******************************/
-
-
+section{
+    margin-left: -1em; /*expand through the body padding*/
+    margin-right: -1em;
+    background-color: #232423;
+    padding: 1em 0;
+}
 
