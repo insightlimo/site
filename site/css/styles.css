@@ -80,20 +80,28 @@ end phone
 yelp
 */
 
+.yelp{
+    min-height: 80px;
+    border-radius: 15px;
+    border: 1px solid #eeeeee;
+    background-color: #232423;
+    box-shadow: 0 0 .5em #eeeeee;
+}
+
 .yelp p a{
     color: #4591F5;
-    text-decoration: underline;
 }
 
 .yelp p{
-    display: inline;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 2em;
 }
 
 .yelp img{
-    margin-bottom: -.75em;
-    margin-right: .25em;
+    float: left;
+    width: 90px;
+    margin-right: .5em;
+    margin-bottom: .5em;
 }
 /*
 end yelp
