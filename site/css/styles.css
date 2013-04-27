@@ -10,8 +10,9 @@ body{
 }
 
 h3{
-    font-size: 1.1667em;
-    font-weight: 700;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 1em;
 }
 
 header, section, footer{
@@ -20,7 +21,9 @@ header, section, footer{
 
 section{
     padding: 1em;
-    background-color: #232423;
+    max-width: 288px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a{
@@ -29,7 +32,7 @@ a{
 
 /*******************************
  header styling
- *******************************/
+ */
 header{
     text-align: center;
     padding: 1em 0;
@@ -50,11 +53,14 @@ header h2{
 h1, header h2{
     font-family: trajan-pro-3, verdana, serif;
 }
-
-/*******************************
+/*
  end header styling
 *******************************/
 
+
+/******************************
+phone
+*/
 .phone a{
     font-size: 2em;
     font-weight: 700;
@@ -63,11 +69,22 @@ h1, header h2{
 .phone{
     text-align: center;
     box-shadow: 0 0 .35em #DEC83A;
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 }
+/*
+end phone
+******************************/
 
+/******************************
+yelp
+*/
 .yelp{
     background-color: transparent;
     text-align: center;
+    box-shadow: none;
 }
 
 .yelp p a{
@@ -83,3 +100,24 @@ h1, header h2{
     margin-bottom: -.75em;
     margin-right: .25em;
 }
+/*
+end yelp
+******************************/
+
+
+/******************************
+services
+*/
+
+.services li{
+    margin-bottom: 1em;
+    font-size: 1.333em;
+}
+
+.services li:before{
+    content: "\00BB \0020";
+}
+
+/*
+end services
+******************************/
