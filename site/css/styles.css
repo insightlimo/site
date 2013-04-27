@@ -163,3 +163,47 @@ services
 /*
 end services
 ******************************/
+
+
+/******************************
+testimonials
+*/
+
+.testimonials{
+    max-width: 100%;
+    padding: 0;
+}
+
+.testimonials li{
+    margin-bottom: 3em;
+}
+
+.testimonials ul{
+    background-color: #232423;
+    width: 100%;
+    padding: 2em 0;
+    box-shadow: 0 0 .35em #DEC83A;
+}
+
+.testimonials h3,
+.testimonials li p{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonials li p{
+    line-height: 1.4375em;
+}
+
+.curlystart{
+    font-size: 8em;
+    height: 1px;
+    margin-top: 45px;
+    float: left;
+}
+
+
+/*
+end testimonials
+******************************/
