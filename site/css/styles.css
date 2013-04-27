@@ -13,17 +13,15 @@ h3{
     font-size: 2em;
     font-weight: 600;
     margin-bottom: 1em;
-}
-
-header, section, footer{
-    margin-bottom: 2em;
+    color: #DEC83A;
 }
 
 section{
     padding: 1em;
-    max-width: 288px;
+    max-width: 350px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2em;
 }
 
 a{
@@ -67,10 +65,10 @@ phone
     color: #DEC83A;
 }
 .phone{
+    background-color: #232423;
     text-align: center;
     box-shadow: 0 0 .35em #DEC83A;
     max-width: 100%;
-    width: 100%;
     margin-left: 0;
     margin-right: 0;
 }
@@ -81,19 +79,16 @@ end phone
 /******************************
 yelp
 */
-.yelp{
-    background-color: transparent;
-    text-align: center;
-    box-shadow: none;
-}
 
 .yelp p a{
     color: #4591F5;
+    text-decoration: underline;
 }
 
 .yelp p{
     display: inline;
     font-weight: 600;
+    font-size: 1em;
 }
 
 .yelp img{
