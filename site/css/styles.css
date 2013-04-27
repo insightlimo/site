@@ -21,7 +21,7 @@ section{
     max-width: 350px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2em;
+    margin-bottom: 2.5em;
 }
 
 a{
@@ -114,13 +114,14 @@ fleet
 */
 
 .fleet{
-
+    text-align: center;
 }
 
 .fleet li{
-    margin-top: 2em;
+    margin-top: 3em;
     width: 175px;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fleet li .wrapper{
@@ -137,9 +138,10 @@ fleet
     margin-left: 10px;
 }
 
-.fleet li figcaption{
-
+.fleet figcaption{
+    margin-top: .75em;
 }
+
 /*
 end fleet
 ******************************/
