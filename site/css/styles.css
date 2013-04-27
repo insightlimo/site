@@ -25,7 +25,12 @@ section{
 }
 
 a{
+    color: #4591F5;
     text-decoration: none;
+}
+
+.emphasis{
+    color: #DEC83A;
 }
 
 /*******************************
@@ -62,7 +67,6 @@ phone
 .phone a{
     font-size: 2em;
     font-weight: 700;
-    color: #DEC83A;
 }
 .phone{
     background-color: #232423;
@@ -71,6 +75,7 @@ phone
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
+    color: #DEC83A;
 }
 /*
 end phone
@@ -82,14 +87,10 @@ yelp
 
 .yelp{
     min-height: 80px;
-    border-radius: 15px;
+/*    border-radius: 15px;
     border: 1px solid #eeeeee;
     background-color: #232423;
-    box-shadow: 0 0 .5em #eeeeee;
-}
-
-.yelp p a{
-    color: #4591F5;
+    box-shadow: 0 0 .5em #eeeeee;*/
 }
 
 .yelp p{
