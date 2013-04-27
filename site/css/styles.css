@@ -86,16 +86,15 @@ yelp
 */
 
 .yelp{
+    margin-top: 3.5em;
+    margin-bottom: 2.5em;
     min-height: 80px;
-/*    border-radius: 15px;
-    border: 1px solid #eeeeee;
-    background-color: #232423;
-    box-shadow: 0 0 .5em #eeeeee;*/
 }
 
 .yelp p{
-    font-weight: 600;
-    font-size: 2em;
+    font-family: trajan-pro-3, verdana, serif;
+    font-size: 1.5em;
+    line-height: 1.34em;
 }
 
 .yelp img{
@@ -103,6 +102,7 @@ yelp
     width: 90px;
     margin-right: .5em;
     margin-bottom: .5em;
+    margin-left: -5px;
 }
 /*
 end yelp
