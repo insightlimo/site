@@ -217,7 +217,7 @@ end testimonials
         margin-bottom: 1em;
         margin-left: auto;
         margin-right: auto;
-        padding: 3px 0; /*so the borders show*/
+        padding: 3em 0;
         overflow: hidden;
     }
 
@@ -307,6 +307,9 @@ end testimonials
     .top{
         box-shadow: 0 0 .35em #DEC83A;
     }
+    .divider{
+        overflow: visible;
+    }
     .phone{
         box-shadow: none;
     }
@@ -318,21 +321,57 @@ end testimonials
     }
 
 
-    .yelp{
-        width: calc(33% - 3em);
+    .services{
+        width: calc(33% - 4em);
+        padding: 0;
         margin: 0;
         max-width: 300px;
-        padding-right: 3em;
-        float: right;
-        font-size: 1em;
-        padding: 2em 3em 2em 0; /*matches padding of services section*/
+        font-size: .8333em;
+        background-color: #232423;
+        padding: 1em;
+        margin-right: 1em;
+        box-shadow: 0 0 .35em #DEC83A;
     }
-    .yelp img{
-        width: 45px;
+
+    .services ul{
+        margin-left: 0;
+    }
+
+    .services h3{
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .services p{
+        display: none;
+    }
+
+    .testimonials{
+        font-size: 1em;
+    }
+
+    .testimonials li{
+        margin-bottom: 0;
+        margin-top: 2em;
+    }
+
+    .yelp, .testimonials{
+        width: calc(66% - 4em);
+        padding: 0 2em;
+        max-width: 600px;
+    }
+
+    .yelp{
+        margin: 0;
     }
     .yelp p{
-        font-size: 1em;
-        width: 100%;
 
+    }
+
+    .yelp, .testimonials{
+        float: left;
+    }
+    .services{
+        float: right;
     }
 }
