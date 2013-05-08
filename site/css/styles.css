@@ -213,7 +213,7 @@ end testimonials
 @media screen and (min-width: 600px){
 
     .divider{
-        max-width: 750px;
+        max-width: 900px;
         margin-bottom: 1em;
         margin-left: auto;
         margin-right: auto;
@@ -224,13 +224,13 @@ end testimonials
     .services{
         width: calc(66% - 4em);
         margin: 0 2em;
-        max-width: 500px;
+        max-width: 600px;
     }
 
     .testimonials{
         width: calc(33% - 3em);
         padding-right: 3em;
-        max-width: 250px;
+        max-width: 300px;
     }
 
     section {
@@ -267,8 +267,6 @@ end testimonials
     }
 
     .services{
-        background-color: #232423;
-        box-shadow: 0 0 .35em #DEC83A;
         padding: 2em 0;
     }
 
@@ -320,5 +318,21 @@ end testimonials
     }
 
 
-    
+    .yelp{
+        width: calc(33% - 3em);
+        margin: 0;
+        max-width: 300px;
+        padding-right: 3em;
+        float: right;
+        font-size: 1em;
+        padding: 2em 3em 2em 0; /*matches padding of services section*/
+    }
+    .yelp img{
+        width: 45px;
+    }
+    .yelp p{
+        font-size: 1em;
+        width: 100%;
+
+    }
 }
