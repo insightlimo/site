@@ -11,8 +11,7 @@ body{
 
 section h3{
     text-align: center;
-    font-size: 2em;
-    font-weight: 600;
+    font-size: 1.125em;
     margin-bottom: 1em;
     color: #DEC83A;
     width: 100%;
@@ -57,7 +56,7 @@ header h2{
     margin-top: .25em;
 }
 
-h1, header h2{
+h1, header h2, section h3{
     font-family: trajan-pro-3, verdana, serif;
 }
 /*
