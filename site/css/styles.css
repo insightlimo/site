@@ -156,9 +156,11 @@ end fleet
 services
 */
 
+.services ul{
+    margin-left: 1em;
+}
 .services li{
     margin-bottom: 1em;
-    margin-left: 1em;
     font-size: 1.333em;
 }
 
@@ -207,13 +209,40 @@ end testimonials
 
 
 @media screen and (min-width: 600px){
-    
-    section {
-        max-width: 100%;
-    }
-    
-    .fleet{
-        float: right;
+    section > *{
+        width: 100%;
+        margin: 0;
     }
 
+    .testimonials, .services{
+        float: left;
+    }
+
+    .testimonials{
+        width: calc(33% - .75em);
+        max-width: 200px;
+        padding: 0;
+        background-color: transparent;
+        box-shadow: none;
+        font-size: .833em;
+        padding-right: .75em;
+        line-height: 1.461em;
+    }
+
+    .testimonials h3{
+        display: none;
+    }
+
+    .services{
+        width: 66%;
+        max-width: 400px;
+    }
+
+    .services ul, .services h3{
+        margin-left: 3em;
+    }
+
+    .services h3{
+        text-align: left;
+    }
 }
