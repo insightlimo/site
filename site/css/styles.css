@@ -12,7 +12,7 @@ body{
 section h3{
     text-align: center;
     font-size: 1.125em;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     color: #DEC83A;
     width: 100%;
 }
@@ -158,11 +158,16 @@ services
 
 .services li{
     margin-bottom: 1em;
+    margin-left: 1em;
     font-size: 1.333em;
 }
 
 .services li:before{
     content: "\00BB \0020";
+}
+
+.services p{
+    padding-top: 1em;
 }
 
 /*
