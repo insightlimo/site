@@ -337,4 +337,13 @@ end testimonials
     .yelp, .phone{
         float: right;
     }
+
+    header{
+        background-color: #232423;
+        box-shadow: 0 0 .35em #DEC83A;
+    }
+
+    header h1{
+        color: #DEC83A;
+    }
 }
