@@ -121,12 +121,15 @@ fleet
 
 .fleet li{
     margin-top: 3em;
-    width: 175px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
+.fleet li figure{
+    display: inline-block; /*center everything*/
+}
+
+/*circles*/
 .fleet li .wrapper{
+    margin: 0 auto; /*center the images*/
     width: 175px;
     height: 175px;
     overflow: hidden;
