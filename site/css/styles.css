@@ -202,7 +202,6 @@ testimonials
 .testimonials li p{
     line-height: 1.4375em;
     padding: 0 2em;
-    text-align: justify;
 }
 
 .curlystart{
@@ -320,6 +319,7 @@ end testimonials
     .testimonials li p{
         line-height: 1.5625em;
         padding-left: 1em;
+        text-align: justify;
     }
 
     /* looks redundant on larger screens*/
