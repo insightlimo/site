@@ -127,13 +127,19 @@ fleet
 }
 .fleet figcaption{
     margin-top: .75em;
+    width: 175px;
+    text-align: center;
+}
+
+.fleet figure{
+    margin: 0 auto; /*center the images*/
+    width: 175px;
 }
 
 /*circles*/
 .fleet li .wrapper{
-    margin: 0 auto; /*center the images*/
-    width: 175px;
     height: 175px;
+    width: 175px;
     overflow: hidden;
     border-radius: 50%;
     border: 1px solid #eeeeee;
@@ -229,6 +235,20 @@ end testimonials
     .services p{
         padding-top: 1em;
         clear: both;
+    }
+
+    .fleet{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .fleet ul{
+        padding-left: 10px;
+    }
+    
+    .fleet li{
+        width: 190px;
+        float: left;
     }
 }
 
