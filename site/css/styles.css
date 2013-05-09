@@ -119,12 +119,17 @@ fleet
 }
 
 .fleet li{
-    margin-top: 3em;
+    margin-bottom: 2em;
 }
 
 .fleet figcaption, .fleet p{
     text-align: center;
 }
+
+.fleet p.emphasis{
+    margin-top: 2em;
+}
+
 .fleet figcaption{
     margin-top: .75em;
     width: 175px;
@@ -311,6 +316,7 @@ end testimonials
     /*it's wider, so tweak the line-height*/
     .testimonials li p{
         line-height: 1.5625em;
+        padding-left: 1em;
     }
 
     /* looks redundant on larger screens*/
@@ -326,7 +332,7 @@ end testimonials
 
     /*make the curlies hang off to the left.*/
     .curlystart{
-        margin: 3rem 1rem 6rem 0;
+        margin: 3rem 1rem 6.5rem 0;
         line-height: 1rem;
     }
 
@@ -350,10 +356,22 @@ end testimonials
     }
 
     .fleet{
-        padding-top: 3em;
+        padding-top: 2em;
         background-color: #232423;
         box-shadow: 0 0 .35em #DEC83A;
     }
+
+    .fleet ul{
+        width: 400px;
+        margin: 0 auto;
+        padding-left: 10px;
+    }
+    
+    .fleet li{
+        width: 190px;
+        float: left;
+    }
+
 
 }
 
