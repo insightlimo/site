@@ -362,13 +362,14 @@ end testimonials
     }
 
     .fleet ul{
-        width: 400px;
+        width: 100%;
+        max-width: 900px;
         margin: 0 auto;
         padding-left: 10px;
     }
     
     .fleet li{
-        width: 190px;
+        width: 33%;
         float: left;
     }
 
