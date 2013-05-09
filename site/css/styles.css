@@ -18,10 +18,9 @@ section h3{
     font-size: 1.125em;
     margin-bottom: 1.5em;
     color: #DEC83A;
-    width: 100%;
 }
 
-.divider{
+.middle{
     width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -36,6 +35,11 @@ a{
     color: #DEC83A;
 }
 
+h1, header h2, section h3{
+    font-family: trajan-pro-3, verdana, serif;
+}
+
+
 /*******************************
  header styling
  */
@@ -47,18 +51,13 @@ header{
 h1{
     font-size: 3em;
     letter-spacing: .2em;
-    font-weight: 300;
 }
 
 header h2{
     font-size: 1.33333em;
-    font-weight: 300;
     margin-top: .25em;
 }
 
-h1, header h2, section h3{
-    font-family: trajan-pro-3, verdana, serif;
-}
 /*
  end header styling
 *******************************/
@@ -69,7 +68,6 @@ phone
 */
 .phone a{
     font-size: 2em;
-    font-weight: 600;
 }
 .phone{
     background-color: #232423;
@@ -103,9 +101,7 @@ yelp
 .yelp img{
     float: left;
     width: 3em;
-    margin-right: .5em;
-    margin-bottom: .5em;
-    margin-left: -5px;
+    margin-right: 5px;
 }
 /*
 end yelp
@@ -223,7 +219,7 @@ end testimonials
         box-shadow: 0 0 .35em #DEC83A;
     }
 
-    .divider{
+    .middle{
         width: 100%;
         max-width: 900px;
         margin-left: auto;
