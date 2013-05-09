@@ -21,7 +21,8 @@ section h3{
 }
 
 .middle{
-    width: 300px;
+    width: 100%;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -113,7 +114,6 @@ fleet
 */
 
 .fleet{
-    text-align: center;
     padding-bottom: 1em;
     margin-bottom: 0;
 }
@@ -122,8 +122,11 @@ fleet
     margin-top: 3em;
 }
 
-.fleet li figure{
-    display: inline-block; /*center everything*/
+.fleet figcaption, .fleet p{
+    text-align: center;
+}
+.fleet figcaption{
+    margin-top: .75em;
 }
 
 /*circles*/
@@ -141,11 +144,6 @@ fleet
     margin-top: 30px;
     margin-left: 10px;
 }
-
-.fleet figcaption{
-    margin-top: .75em;
-}
-
 /*
 end fleet
 ******************************/
@@ -155,16 +153,13 @@ end fleet
 services
 */
 
-
-.services h3{
-    text-align: left;
-    margin-left: 2em;
+.services ul li, .services p{
+    margin-left: 3em;
 }
 
 .services li{
     margin-bottom: 1em;
     font-size: 1.333em;
-    margin-left: 1em;
 }
 
 .services li:before{
@@ -173,7 +168,6 @@ services
 
 .services p{
     padding-top: 1em;
-    margin-left: 1em;
 }
 
 /*
@@ -195,89 +189,82 @@ testimonials
 
 .testimonials li p{
     line-height: 1.4375em;
+    padding: 0 1em;
 }
 
 .curlystart{
     font-size: 8em;
     height: 1px;
+    /*put the quotes exactly where we want them.*/
     margin-top: 44px;
     float: left;
 }
-
-
 /*
 end testimonials
 ******************************/
 
+
 @media screen and (min-width: 660px){
 
-    section{
-        margin-bottom: 1em;
-    }
-
+    /*
+      make the top section black and gold.
+      add a box shadow
+      */
     .top{
+        background-color: #232423;
+        margin-bottom: 3em;
         box-shadow: 0 0 .35em #DEC83A;
     }
 
     .middle{
-        width: 100%;
+        /*let the middle grow to accomodate two columns.*/
         max-width: 900px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2em;
-        padding: 1em 0;
+        margin-top: 3em;
     }
+
+    /*it's folded into the top section now.*/
     .phone{
         box-shadow: none;
         padding-top: 0;
         padding-bottom: 1em;
     }
-    header{
-        background-color: #232423;
-    }
+
     header h1{
         color: #DEC83A;
     }
 
-
     .services{
-        width: calc(33% - 4em);
-        padding: 0;
-        margin: 0;
+        width: 28%;/*fallback*/
+        width: calc(33% - 2em);
         max-width: 300px;
         margin-right: 2em;
     }
 
+    /*make the font smaller so the text doesn't wrap*/
     .services h3, .services li, .services p{
         font-size: .8333em;
     }
 
+    /*lines up better this way.*/
     .services h3{
+        text-align: left;
+    }
+
+    /*cancel the left margin*/
+    .services ul li, .services p{
         margin-left: 0;
     }
 
-    .services ul{
-        margin-left: 0;
-    }
-
-    .services li{
-        margin-left: 0;
-    }
-
-    .testimonials{
-        background-color: transparent;
-        box-shadow: none;
-        font-size: 1em;
-    }
-    
     .testimonials, .services{
         margin-top: 0;
     }
 
+    /*it's wider, so tweak the line-height*/
     .testimonials li p{
         line-height: 1.5625em;
     }
 
+    /* looks redundant on larger screens*/
     .testimonials li p.emphasis{
         display: none;
     }
@@ -285,27 +272,25 @@ end testimonials
     .testimonials h3{
         text-align: left;
         margin-bottom: 1em;
+        margin-left: 5em;
     }
 
+    /*make the curlies hang off to the left.*/
     .curlystart{
-        margin: 3rem 1rem 7rem 0;
+        margin: 3rem 1rem 6rem 0;
         line-height: 1rem;
     }
 
     .testimonials{
-        width: calc(66% - 4em);
-        padding: 0 2em;
+        width: 66%;
         max-width: 600px;
     }
 
     .yelp{
         font-size: 1.333em;
+        /*spacing handled by top and middle sections*/
         margin: 0;
         clear: both;
-    }
-
-    .testimonials h3{
-        margin-left: 4rem;
     }
 
     .yelp p{
