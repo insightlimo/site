@@ -207,11 +207,14 @@ testimonials
 
 .curlystart{
     font-size: 8em;
-    height: 1px;
+    height: 44px;
     /*put the quotes exactly where we want them.*/
-    margin-top: 44px;
+    padding-top: 44px;
+    margin-bottom: -44px;
     float: left;
+    zoom: 1;
 }
+
 /*
 end testimonials
 ******************************/
@@ -332,7 +335,7 @@ end testimonials
 
     /*make the curlies hang off to the left.*/
     .curlystart{
-        margin: 3rem 1rem 6.5rem 0;
+        padding: 3rem 1rem 6.5rem 0;
         line-height: 1rem;
     }
 
