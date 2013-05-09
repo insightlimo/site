@@ -21,11 +21,7 @@ section h3{
     width: 100%;
 }
 
-section{
-    margin-bottom: 2.5em;
-}
-
-section > *{
+.divider{
     width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -209,109 +205,27 @@ testimonials
 end testimonials
 ******************************/
 
-
-@media screen and (min-width: 600px){
-
-    .divider{
-        max-width: 900px;
-        margin-bottom: 1em;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 3em 0;
-        overflow: hidden;
-    }
-
-    .services{
-        width: calc(66% - 4em);
-        margin: 0 2em;
-        max-width: 600px;
-    }
-
-    .testimonials{
-        width: calc(33% - 3em);
-        padding-right: 3em;
-        max-width: 300px;
-    }
-
-    section {
-        margin-bottom: 0;
-    }
-
-    section > *{
-        width: 100%;
-        margin: 0;
-    }
-
-    .testimonials, .services{
-        float: left;
-    }
-
-    /* turn off background styling and border*/
-    .testimonials{
-        background-color: transparent;
-        box-shadow: none;
-    }
-
-    .testimonials{
-        padding: 0;
-        font-size: .833em;
-        line-height: 1.461em;
-    }
-
-    .testimonials h3{
-        display: none;
-    }
-
-    .testimonials li p.emphasis{
-        display: none;
-    }
-
-    .services{
-        padding: 2em 0;
-    }
-
-    .services ul, .services h3, .services p{
-        margin-left: 3em;
-    }
-
-    .services li{
-        margin-left: 0;
-    }
-
-    .services h3{
-        text-align: left;
-    }
-
-    .fleet{
-        clear: both;
-        padding-top: 3em;
-        background-color: #232423;
-        box-shadow: 0 0 .35em #DEC83A;
-        margin-top: 3em;
-    }
-    
-    .yelp{
-        font-size: 1.333em;
-        margin-top: 2em;
-        margin-bottom: 0;
-    }
-    
-    .yelp p{
-        width: 330px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
 @media screen and (min-width: 730px){
+
+    section{
+        margin-bottom: 1em;
+    }
+
     .top{
         box-shadow: 0 0 .35em #DEC83A;
     }
+
     .divider{
-        overflow: visible;
+        width: 100%;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 1em 0;
     }
     .phone{
         box-shadow: none;
+        padding-top: 0;
+        padding-bottom: 1em;
     }
     header{
         background-color: #232423;
@@ -327,13 +241,14 @@ end testimonials
         margin: 0;
         max-width: 300px;
         font-size: .8333em;
-        background-color: #232423;
-        padding: 1em;
-        margin-right: 1em;
-        box-shadow: 0 0 .35em #DEC83A;
+        margin-right: 2em;
     }
 
     .services ul{
+        margin-left: 0;
+    }
+
+    .services li{
         margin-left: 0;
     }
 
@@ -342,17 +257,25 @@ end testimonials
         margin-left: 0;
     }
 
-    .services p{
+    .testimonials{
+        background-color: transparent;
+        box-shadow: none;
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+    .testimonials li p.emphasis{
         display: none;
     }
 
-    .testimonials{
-        font-size: 1em;
+    .testimonials h3{
+        text-align: left;
+        margin-bottom: 1em;
     }
 
-    .testimonials li{
-        margin-bottom: 0;
-        margin-top: 2em;
+    .curlystart{
+        margin: 3rem 1rem 6rem 0;
+        line-height: 1rem;
     }
 
     .yelp, .testimonials{
@@ -362,10 +285,16 @@ end testimonials
     }
 
     .yelp{
+        font-size: 1.333em;
         margin: 0;
     }
-    .yelp p{
 
+    .yelp p, .testimonials h3{
+        margin-left: 4rem;
+    }
+
+    .yelp p{
+        width: 330px;
     }
 
     .yelp, .testimonials{
@@ -374,4 +303,11 @@ end testimonials
     .services{
         float: right;
     }
+
+    .fleet{
+        padding-top: 3em;
+        background-color: #232423;
+        box-shadow: 0 0 .35em #DEC83A;
+    }
+
 }
