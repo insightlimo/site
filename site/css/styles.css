@@ -95,14 +95,14 @@ yelp
     font-family: trajan-pro-3, verdana, serif;
     font-size: 1.125em;
     line-height: 1.34em;
-    width: 230px;
+    width: 14em;
     margin: 0 auto;
 }
 
 .yelp img{
     float: left;
     width: 3em;
-    margin-right: 5px;
+    margin-right: .5em;
 }
 /*
 end yelp
@@ -189,7 +189,8 @@ testimonials
 
 .testimonials li p{
     line-height: 1.4375em;
-    padding: 0 1em;
+    padding: 0 2em;
+    text-align: justify;
 }
 
 .curlystart{
@@ -220,6 +221,7 @@ end testimonials
         /*let the middle grow to accomodate two columns.*/
         max-width: 900px;
         margin-top: 3em;
+        padding-bottom: 2em;
     }
 
     /*it's folded into the top section now.*/
@@ -284,23 +286,18 @@ end testimonials
     .testimonials{
         width: 66%;
         max-width: 600px;
+        float: left;
     }
 
     .yelp{
         font-size: 1.333em;
-        /*spacing handled by top and middle sections*/
         margin: 0;
-        clear: both;
     }
 
     .yelp p{
-        width: 330px;
         margin: 0 auto;
     }
 
-    .testimonials{
-        float: left;
-    }
     .services{
         float: right;
     }
@@ -314,6 +311,10 @@ end testimonials
 }
 
 @media screen and (min-width: 750px){
+    /* 
+       boost the font size once the screen is wide enough
+       to avoid line breaks.
+    */
     .services h3, .services li{
         font-size: 1em;
     }
