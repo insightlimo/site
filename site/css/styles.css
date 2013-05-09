@@ -89,7 +89,7 @@ yelp
 */
 
 .yelp{
-    margin: 3em auto;
+    margin: 3em 0;
 }
 
 .yelp p{
@@ -97,6 +97,7 @@ yelp
     font-size: 1.125em;
     line-height: 1.34em;
     width: 230px;
+    margin: 0 auto;
 }
 
 .yelp img{
@@ -168,6 +169,7 @@ services
 
 .services p{
     padding-top: 1em;
+    margin-left: 1em;
 }
 
 /*
@@ -180,9 +182,7 @@ testimonials
 */
 
 .testimonials{
-    background-color: #232423;
-    padding: 2em 0;
-    box-shadow: 0 0 .35em #DEC83A;
+    margin-top: 3em;
 }
 
 .testimonials li{
@@ -205,7 +205,7 @@ testimonials
 end testimonials
 ******************************/
 
-@media screen and (min-width: 730px){
+@media screen and (min-width: 660px){
 
     section{
         margin-bottom: 1em;
@@ -220,6 +220,7 @@ end testimonials
         max-width: 900px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 2em;
         padding: 1em 0;
     }
     .phone{
@@ -250,6 +251,7 @@ end testimonials
 
     .services li{
         margin-left: 0;
+        font-size: .8333rem;
     }
 
     .services h3{
@@ -261,7 +263,10 @@ end testimonials
         background-color: transparent;
         box-shadow: none;
         font-size: 1em;
-        margin-top: 1em;
+    }
+    
+    .testimonials, .services{
+        margin-top: 0;
     }
 
     .testimonials li p.emphasis{
@@ -278,7 +283,7 @@ end testimonials
         line-height: 1rem;
     }
 
-    .yelp, .testimonials{
+    .testimonials{
         width: calc(66% - 4em);
         padding: 0 2em;
         max-width: 600px;
@@ -287,17 +292,19 @@ end testimonials
     .yelp{
         font-size: 1.333em;
         margin: 0;
+        clear: both;
     }
 
-    .yelp p, .testimonials h3{
+    .testimonials h3{
         margin-left: 4rem;
     }
 
     .yelp p{
         width: 330px;
+        margin: 0 auto;
     }
 
-    .yelp, .testimonials{
+    .testimonials{
         float: left;
     }
     .services{
