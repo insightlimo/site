@@ -118,6 +118,7 @@ fleet
 
 .fleet{
     text-align: center;
+    padding-bottom: 1em;
 }
 
 .fleet li{
@@ -157,6 +158,12 @@ end fleet
 services
 */
 
+
+.services h3{
+    text-align: left;
+    margin-left: 2em;
+}
+
 .services li{
     margin-bottom: 1em;
     font-size: 1.333em;
@@ -186,7 +193,7 @@ testimonials
 }
 
 .testimonials li{
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 .testimonials li p{
@@ -196,7 +203,7 @@ testimonials
 .curlystart{
     font-size: 8em;
     height: 1px;
-    margin-top: 45px;
+    margin-top: 44px;
     float: left;
 }
 
@@ -241,8 +248,15 @@ end testimonials
         padding: 0;
         margin: 0;
         max-width: 300px;
-        font-size: .8333em;
         margin-right: 2em;
+    }
+
+    .services h3, .services li, .services p{
+        font-size: .8333em;
+    }
+
+    .services h3{
+        margin-left: 0;
     }
 
     .services ul{
@@ -250,12 +264,6 @@ end testimonials
     }
 
     .services li{
-        margin-left: 0;
-        font-size: .8333rem;
-    }
-
-    .services h3{
-        text-align: left;
         margin-left: 0;
     }
 
@@ -269,6 +277,10 @@ end testimonials
         margin-top: 0;
     }
 
+    .testimonials li p{
+        line-height: 1.5625em;
+    }
+
     .testimonials li p.emphasis{
         display: none;
     }
@@ -279,7 +291,7 @@ end testimonials
     }
 
     .curlystart{
-        margin: 3rem 1rem 6rem 0;
+        margin: 3rem 1rem 7rem 0;
         line-height: 1rem;
     }
 
@@ -317,4 +329,10 @@ end testimonials
         box-shadow: 0 0 .35em #DEC83A;
     }
 
+}
+
+@media screen and (min-width: 750px){
+    .services h3, .services li{
+        font-size: 1em;
+    }
 }
