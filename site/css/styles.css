@@ -155,7 +155,7 @@ services
 
 .services ul li, .services p{
     margin-left: 3em;
-    margin-left: 4rem;
+    margin-left: 3rem;
 }
 
 .services li{
@@ -205,6 +205,32 @@ testimonials
 end testimonials
 ******************************/
 
+@media screen and (min-width: 400px) and (max-width: 660px){
+
+    .services{
+        max-width: 362px;
+        margin: 0 auto;
+        padding-left: 2em;
+    }
+
+    .services p{
+        margin-left: 1em;
+    }
+    
+    .services ul li{
+        margin-left: 0;
+        font-size: .8333em;
+        float: left;
+        margin-left: 1em;
+        width: 46%;
+        width: calc(50% - 2em);
+    }
+    
+    .services p{
+        padding-top: 1em;
+        clear: both;
+    }
+}
 
 @media screen and (min-width: 660px){
 
